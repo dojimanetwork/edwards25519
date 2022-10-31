@@ -5,8 +5,8 @@
 package main
 
 import (
-	. "dojimanetwork/edwards25519/v2/field"
 	"fmt"
+	. "github.com/dojimanetwork/edwards25519/v2/field"
 	. "github.com/mmcloughlin/avo/build"
 	. "github.com/mmcloughlin/avo/gotypes"
 	. "github.com/mmcloughlin/avo/operand"
@@ -16,7 +16,7 @@ import (
 //go:generate go run . -out ../fe_amd64.s -stubs ../fe_amd64.go -pkg field
 
 func main() {
-	Package("dojimanetwork/edwards25519/v2/field")
+	Package("github.com/dojimanetwork/edwards25519/v2/field")
 	ConstraintExpr("amd64,gc,!purego")
 	feMul()
 	feSquare()
