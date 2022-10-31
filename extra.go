@@ -10,7 +10,7 @@ package edwards25519
 import (
 	"errors"
 
-	"dojimanetwork/edwards25519/v2/field"
+	"github.com/dojimanetwork/edwards25519/v2/field"
 )
 
 // ExtendedCoordinates returns v in extended coordinates (X:Y:Z:T) where

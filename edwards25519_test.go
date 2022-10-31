@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"dojimanetwork/edwards25519/v2/field"
+	"github.com/dojimanetwork/edwards25519/v2/field"
 )
 
 var B = NewGeneratorPoint()
