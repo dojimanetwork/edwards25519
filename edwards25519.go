@@ -7,7 +7,7 @@ package edwards25519
 import (
 	"errors"
 
-	"filippo.io/edwards25519/field"
+	"dojimanetwork/edwards25519/field"
 )
 
 // Point types.
