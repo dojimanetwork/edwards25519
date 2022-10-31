@@ -7,7 +7,7 @@ package edwards25519
 import (
 	"errors"
 
-	"dojimanetwork/edwards25519/field"
+	"dojimanetwork/edwards25519/v2/field"
 )
 
 // Point types.
